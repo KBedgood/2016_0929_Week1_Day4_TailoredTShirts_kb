@@ -1,43 +1,39 @@
+.container {
+    max-width: 990px;
+}
+
+
+body {
+    font-family: "Helvetica", sans-serif;
+    color: white;
+    line-height: 1.4em;
+}
+
+ 
+
+
+.tee1 {
+    max-width: 33%
+    box: 2px;
+    color: #5CA4D7;
+}
+
+.teeBlue{
+    max-width: 80%
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .footer {
+.footer {
     font-family: helvetica, serif;
-    font-size: 16px;
+    font-size: 8px;
     margin-top: 111px;
+    font-color: grey;
+    text-align: center;
+}
 
-
-    @media screen and (max-width: 990px) {
-        .left, .middle, .right {
-            width: 100%;
-        }
-        color: grey;
-    }
+@media screen and (max-width: 990px) {
+    .left,
+    .middle,
+    .right {
+        width: 100%;
