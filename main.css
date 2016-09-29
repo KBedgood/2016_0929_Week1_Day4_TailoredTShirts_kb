@@ -1,34 +1,110 @@
-.container {
-    max-width: 990px;
+        * {
+    box-sizing: border-box;
 }
 
-
 body {
-    font-family: "Helvetica", sans-serif;
-    color: white;
+    font-family: 'Lato', sans-serif;
     line-height: 1.4em;
 }
 
- 
+.conatainer {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.row1 {
+    width: 33%;
+}
+
+.floater {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 3px solid #84BAE0;
+    border-bottom: 3px solid #84BAE0;
+}
+
+.floater:hover {
+    background-color: #84BAE0;
+}
 
 
 .tee1 {
-    max-width: 33%
-    box: 2px;
-    color: #5CA4D7;
+    border: 3px solid #84BAE0;
+    padding: 30px;
+    background-color: transparent;
+    position: relative;
 }
 
-.teeBlue{
-    max-width: 80%
+.shop {
+    border-left: 3px solid #84BAE0;
+    border-right: 3px solid #84BAE0;
+    border-bottom: 3px solid #84BAE0;
+    max-width: 100%;
+    height: 30px;
+    background-color: transparent;
+}
+
+.teeBlue {
+    width: 100%;
+}
+
+h3 {
+    font-size: 16px;
+    color: #84BAE0;
+    margin-top: 10px;
+    float: left;
+}
+
+#price {
+    font-size: 18px;
+    color: #84BAE0;
+    display: inline;
+    float: right;
+    font-weight: bold;
+}
+
+.fa {
+    color: #84BAE0;
+    text-align: center;
+    display: block;
+    padding-top: 5px;
+}
+
+.icon {
+    height: 30px;
+    width: 20%;
+    border-right: 3px solid #84BAE0;
+    display: inline-block;
+}
+
+.icon:hover {
+    background-color: #84BAE0;
+}
+
+i:hover {
+    color: white !important;
+}
+
+.icon5 {
+    border-right: 0;
 }
 
 
+/*.xl {
+    font-size: 14px;
+    color: #84BAE0;
+text-align: center;
+}
+*/
 
 .footer {
     font-family: helvetica, serif;
     font-size: 8px;
-    margin-top: 111px;
-    font-color: grey;
+    margin-top: 44px;
+    color: grey;
     text-align: center;
 }
 
