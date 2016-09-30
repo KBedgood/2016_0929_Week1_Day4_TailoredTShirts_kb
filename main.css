@@ -84,15 +84,15 @@ body {
 
 .icon4 .colorMenu {
     position: absolute;
-    top: -126px;
-    left: -27px;
+    top: -130px;
+    left: -34px;
     background-color: white;
     border-left: 3px solid #84BAE0;
     border-right: 3px solid #84BAE0;
     border-top: 3px solid #84BAE0;
     border-bottom: 3px solid #84BAE0;
-    padding: 5px;
-    width: 194%;
+    padding: 7px;
+    width: 220%;
     text-align: center;
     display: none;
 }
@@ -187,7 +187,7 @@ h3 {
     border-right: 10px solid transparent;
     position: absolute;
     bottom: -7px;
-    left: 42px;
+    left: 50px;
 }
 
 .icon:hover {
