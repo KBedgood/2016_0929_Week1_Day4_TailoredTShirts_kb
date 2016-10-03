@@ -55,7 +55,7 @@ body {
 .sizeMenu {
     position: absolute;
     top: -176px;
-    left: -4px;
+    left: -2px;
     background-color: white;
     border-left: 3px solid #84BAE0;
     border-right: 3px solid #84BAE0;
@@ -85,14 +85,14 @@ body {
 .icon4 .colorMenu {
     position: absolute;
     top: -130px;
-    left: -34px;
+    left: -31px;
     background-color: white;
     border-left: 3px solid #84BAE0;
     border-right: 3px solid #84BAE0;
     border-top: 3px solid #84BAE0;
     border-bottom: 3px solid #84BAE0;
     padding: 7px;
-    width: 220%;
+    width: 135px;
     text-align: center;
     display: none;
 }
@@ -212,8 +212,32 @@ h3 {
     text-align: center;
 }
 
-@media screen and (max-width: 990px) {
-    .left,
-    .middle,
-    .right {
+@media  (max-width: 990px) {
+ .row1, .row2, .row3
+ {
         width: 100%;
+        }
+
+        .sizeMenu {
+            top: -197px;
+            left: 0px;
+            position: relative;
+        }
+
+        .icon4 .colorMenu {
+            left: -17.5px;
+            top: -433%;
+        }
+
+        .triangle
+        {
+            left: 33px;
+            top:169px;
+        }
+
+        .triangle2
+        {
+            left: 51px;
+        }
+
+    }
