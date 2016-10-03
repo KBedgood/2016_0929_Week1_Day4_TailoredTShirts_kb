@@ -55,7 +55,7 @@ body {
 .sizeMenu {
     position: absolute;
     top: -176px;
-    left: -2px;
+    left: 1px;
     background-color: white;
     border-left: 3px solid #84BAE0;
     border-right: 3px solid #84BAE0;
@@ -187,7 +187,7 @@ h3 {
     border-right: 10px solid transparent;
     position: absolute;
     bottom: -7px;
-    left: 50px;
+    left: 53px;
 }
 
 .icon:hover {
@@ -225,19 +225,19 @@ h3 {
         }
 
         .icon4 .colorMenu {
-            left: -17.5px;
+            left: -36.5px;
             top: -433%;
         }
 
         .triangle
         {
-            left: 33px;
+            left: 18.5px;
             top:169px;
         }
 
         .triangle2
         {
-            left: 51px;
+            left: 54px;
         }
 
     }
